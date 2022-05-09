@@ -37,7 +37,7 @@ const App = () => {
                 <p><b>street: </b>{data.location.street.name}</p>
                 <p><b>postcode: </b> {data.location.postcode}</p>
                 <p><b>state: </b> {data.location.state}</p>
-                <p><b>country: </b>{data.location.country}</p>
+                
 
                 <button onClick={() => setLoading(!loading)}>Random user</button>
 
